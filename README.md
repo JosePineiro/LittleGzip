@@ -8,6 +8,7 @@ The wapper is in safe managed code in one class. No need external dll except lib
 The code is full comented and include simple example for using the wrapper.
 ## Compress file functions:
 Open an existing GZIP file for append files or, if test.gz not exit, create a new GZIP file.
+```C#
 LittleGzip gzip = LittleGzip("test.gz");
 ```
 
